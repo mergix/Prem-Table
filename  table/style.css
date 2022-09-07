@@ -1,0 +1,70 @@
+
+
+
+
+
+
+/*  Start   */
+*{
+  text-decoration: none;
+}
+
+:root{
+  --text-color: #111;
+}
+
+caption:hover{
+  color: red;
+}
+
+a:active{
+  color:green;
+}
+
+a:visited{
+  color:blue;
+}
+
+/*.section-1 tr:last-child{
+  color: blue;
+}*/
+.section-1 tr:nth-child(3n+0){
+  color: blue;
+}
+
+/*.section-1::first-line{
+  background-color: yellow;
+  color: red;
+}*/
+
+a{
+  text-decoration: none;
+}
+.section-1 table{
+  color: var(--text-color);
+}
+
+table{
+  width: 400px;
+
+}
+
+th,caption{
+  text-align: left;
+}
+
+table,th,td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th,td{
+padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+tr:nth-child(odd){
+  background-color: #ddd;
+}
