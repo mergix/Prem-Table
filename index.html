@@ -2,34 +2,39 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="reset-stylesheet.css">
-    <link rel="stylesheet" href="style.css">
+    <title> Premier league table </title>
+    <link rel="stylesheet" href="Styles/reset-stylesheet.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="main.js"></script>
   </head>
   <body>
     <header>
-      <a href="https://www.premierleague.com/" class = "prem"><img src="Prem-logos/premier-league-logo-preview.png" alt=""></a>
+      <a href="https://www.premierleague.com/" class = "prem"><img src="Images/Prem-logos/prem-logo.png" alt=""></a>
       <nav>
       <ul>
         <a href=""><li>Matches</li></a>
-        <li><a href="">Seasons</a>
-          <ul>
-          <li><a href="#">2022-23</a> </li>
-          <li><a href="#">2021-22</a></li>
-          <li><a href="#">2020-21</a></li>
-          <li><a href="#">2019-20</a></li>
-          <li><a href="#">2018-19</a></li>
-          </ul>
-        </li>
-        <a href=""><li>Table</li></a>
-        <a href=""><li>Stats</li></a>
+        <a href="index.html"><li>Table</li></a>
+        <a href="stats.html"><li>Stats</li></a>
+        <a href="players.html"><li>Players</li></a>
+        <a href=""><li>News</li></a>
       </ul>
     </nav></header>
-    
+    <div class="wrapper"></div>
     <section class = "section-1">
+      <ul>
+      <li class="season"><a href="#">Seasons</a>
+        <ul>
+        <li><a href="#">2022-23</a> </li>
+        <li><a href="#">2021-22</a></li>
+        <li><a href="#">2020-21</a></li>
+        <li><a href="#">2019-20</a></li>
+        <li><a href="#">2018-19</a></li>
+        </ul>
+      </li>
+    </ul>
     <table>
       <tr>
-        <th>Pos</th>
+        <th>Club</th>
         <th>MP</th>
         <th>W</th>
         <th>D</th>
@@ -38,10 +43,10 @@
         <th>GF</th>
         <th>GA</th>
         <th>GD</th>
-        <th>Last 5 MP</th>
+        <th>Last 5</th>
       </tr>
       <tr>
-        <td  class="Champs"><span class="num">1</span><a href="https://www.arsenal.com/"><img src="Prem-logos/arsenal-logo-vector.png" alt="Arsenal"></a> <span>Arsenal</span></td>
+        <td  class="Champs"><span class="num">1</span><a href="https://www.arsenal.com/"><img src="Images/Prem-logos/arsenal-logo-vector.png" alt="Arsenal"></a> <span>Arsenal</span></td>
         <td>6</td>
         <td>5</td>
         <td>0</td>
@@ -53,7 +58,7 @@
         <td>LWWWW</td>
       </tr>
       <tr>
-        <td class="Champs"><span class="num">2</span><a href="https://www.mancity.com/"><img src="Prem-logos/manchester-city-fc-logo.png" alt="Man-City"></a> <span>Man City</span></td>
+        <td class="Champs"><span class="num">2</span><a href="https://www.mancity.com/"><img src="Images/Prem-logos/manchester-city-fc-logo.png" alt="Man-City"></a> <span>Man City</span></td>
         <td>6</td>
         <td>4</td>
         <td>2</td>
@@ -65,7 +70,7 @@
         <td>DWWDW</td>
       </tr>
       <tr>
-        <td class="Champs"><span class="num">3</span><a href="https://www.tottenhamhotspur.com/"><img src="Prem-logos/tottenham-hotspur-fc-logo.png" alt=""></a> <span>Tottenham</span></td>
+        <td class="Champs"><span class="num">3</span><a href="https://www.tottenhamhotspur.com/"><img src="Images/Prem-logos/tottenham-hotspur-fc-logo.png" alt=""></a> <span>Tottenham</span></td>
         <td>6</td>
         <td>4</td>
         <td>2</td>
@@ -77,7 +82,7 @@
         <td>WDWWD</td>
       </tr>
       <tr>
-        <td class="Champs"><span class="num"> 4</span><a href="https://www.brightonandhovealbion.com/"> <img src="Prem-logos/brighton-hove-albion-logo.png" alt=""> </a><span>Brighton</span></td>   
+        <td class="Champs"><span class="num"> 4</span><a href="https://www.brightonandhovealbion.com/"> <img src="Images/Prem-logos/brighton-hove-albion-logo.png" alt=""> </a><span>Brighton</span></td>   
              <td>6</td>
         <td>4</td>
         <td>1</td>
@@ -89,7 +94,7 @@
         <td>WLWWD</td>
       </tr>
       <tr>
-        <td class="Europa"><span class="num">5</span><a href="https://www.manutd.com/en"> <img src="Prem-logos/manchester-united-logo-vector.png" alt=""> </a><span>Man United</span></td>     
+        <td class="Europa"><span class="num">5</span><a href="https://www.manutd.com/en"> <img src="Images/Prem-logos/manchester-united-logo-vector.png" alt=""> </a><span>Man United</span></td>     
            <td>6</td>
         <td>4</td>
         <td>0</td>
@@ -101,7 +106,7 @@
         <td>WWWWL</td>
       </tr>
       <tr>
-        <td><span class="num">6</span><a href="https://www.chelseafc.com/en"> <img src="Prem-logos/chelsea-logo-vector.png" alt=""></a> <span>Chelsea</span></td>    
+        <td><span class="num">6</span><a href="https://www.chelseafc.com/en"> <img src="Images/Prem-logos/chelsea-logo-vector.png" alt=""></a> <span>Chelsea</span></td>    
             <td>6</td>
         <td>3</td>
         <td>1</td>
@@ -113,7 +118,7 @@
         <td>LWWWW</td>
       </tr>
       <tr>
-        <td><span class="num">7</span><a href="https://www.liverpoolfc.com/"> <img src="Prem-logos/liverpool-logo-vector.png" alt=""> </a><span>Liverpool</span></td>     
+        <td><span class="num">7</span><a href="https://www.liverpoolfc.com/"> <img src="Images/Prem-logos/liverpool-logo-vector.png" alt=""> </a><span>Liverpool</span></td>     
            <td>6</td>
         <td>2</td>
         <td>3</td>
@@ -125,7 +130,7 @@
         <td>DWWLD</td>
       </tr>
       <tr>
-        <td><span class="num">8</span> <a href="https://www.brentfordfc.com/en"><img src="Prem-logos/brentford-fc-logo.png" alt=""></a> <span>Brentford</span></td>     
+        <td><span class="num">8</span> <a href="https://www.brentfordfc.com/en"><img src="Images/Prem-logos/brentford-fc-logo.png" alt=""></a> <span>Brentford</span></td>     
            <td>6</td>
         <td>2</td>
         <td>3</td>
@@ -137,7 +142,7 @@
         <td>WDDLW</td>
       </tr>
       <tr>
-        <td><span class="num">9</span> <a href="https://www.leedsunited.com/"><img src="Prem-logos/leeds-united-fc-logo.png" alt=""> </a><span>Leeds United</span></td>    
+        <td><span class="num">9</span> <a href="https://www.leedsunited.com/"><img src="Images/Prem-logos/leeds-united-fc-logo.png" alt=""> </a><span>Leeds United</span></td>    
             <td>6</td>
         <td>2</td>
         <td>2</td>
@@ -149,7 +154,7 @@
         <td>LDLWD</td>
       </tr>
       <tr>
-        <td><span class="num">10</span> <a href="https://www.fulhamfc.com/"><img src="Prem-logos/fulham-fc-logo.png" alt=""> </a><span>Fulham</span></td>    
+        <td><span class="num">10</span> <a href="https://www.fulhamfc.com/"><img src="Images/Prem-logos/fulham-fc-logo.png" alt=""> </a><span>Fulham</span></td>    
             <td>6</td>
         <td>2</td>
         <td>2</td>
@@ -161,7 +166,7 @@
         <td>LWLWD</td>
       </tr>
       <tr>
-        <td><span class="num">11</span> <a href="https://www.nufc.co.uk/"><img src="Prem-logos/newcastle-united-logo-preview.png" alt=""> </a><span>Newcastle</span></td>    
+        <td><span class="num">11</span> <a href="https://www.nufc.co.uk/"><img src="Images/Prem-logos/newcastle-united-logo-preview.png" alt=""> </a><span>Newcastle</span></td>    
             <td>6</td>
         <td>1</td>
         <td>4</td>
@@ -173,7 +178,7 @@
         <td>DLDDD</td>
       </tr>
       <tr>
-        <td><span class="num">12</span> <a href="https://www.southamptonfc.com/"><img src="Prem-logos/southampton-fc-logo.png" alt=""></a> <span>Southampton</span></td>   
+        <td><span class="num">12</span> <a href="https://www.southamptonfc.com/"><img src="Images/Prem-logos/southampton-fc-logo.png" alt=""></a> <span>Southampton</span></td>   
              <td>6</td>
         <td>2</td>
         <td>1</td>
@@ -185,7 +190,7 @@
         <td>LWLWD</td>
       </tr>
       <tr>
-        <td><span class="num">13</span><a href="https://www.afcb.co.uk/"> <img src="Prem-logos/afc_bournemouth-logo_brandlogos.net_wifjg.png" alt=""></a> <span>Bournemouth</span></td>    
+        <td><span class="num">13</span><a href="https://www.afcb.co.uk/"> <img src="Images/Prem-logos/afc_bournemouth-logo_brandlogos.net_wifjg.png" alt=""></a> <span>Bournemouth</span></td>    
             <td>6</td>
         <td>2</td>
         <td>1</td>
@@ -197,7 +202,7 @@
         <td>WDLLL</td>
       </tr>
       <tr>
-        <td><span class="num">14</span> <a href="https://www.wolves.co.uk/"><img src="Prem-logos/wolverhampton_wanderers_fc-logo-brandlogo.net.png" alt=""></a> <span>Wolves</span></td>     
+        <td><span class="num">14</span> <a href="https://www.wolves.co.uk/"><img src="Images/Prem-logos/wolverhampton_wanderers_fc-logo-brandlogo.net.png" alt=""></a> <span>Wolves</span></td>     
            <td>6</td>
         <td>1</td>
         <td>3</td>
@@ -209,7 +214,7 @@
         <td>WDDLD</td>
       </tr>
       <tr>
-        <td><span class="num">15</span><a href="https://www.cpfc.co.uk/"> <img src="Prem-logos/Crystal_Palace_FC_logo.png" alt=""></a> <span>Crystal Palace</span></td>    
+        <td><span class="num">15</span><a href="https://www.cpfc.co.uk/"> <img src="Images/Prem-logos/Crystal_Palace_FC_logo.png" alt=""></a> <span>Crystal Palace</span></td>    
             <td>6</td>
         <td>1</td>
         <td>3</td>
@@ -221,7 +226,7 @@
         <td>DDLWL</td>
       </tr>
       <tr>
-        <td><span class="num">16</span> <a href="https://www.evertonfc.com/home"><img src="Prem-logos/everton-fc-logo-preview.png" alt=""></a> <span> Everton</span></td>     
+        <td><span class="num">16</span> <a href="https://www.evertonfc.com/home"><img src="Images/Prem-logos/everton-fc-logo-preview.png" alt=""></a> <span> Everton</span></td>     
            <td>6</td>
         <td>0</td>
         <td>4</td>
@@ -233,7 +238,7 @@
         <td>DDDDL</td>
       </tr>
       <tr>
-        <td><span class="num">17</span> <a href="https://www.avfc.co.uk/"><img src="Prem-logos/aston-villa-logo.png" alt=""> </a><span>Aston Villa</span></td>     
+        <td><span class="num">17</span> <a href="https://www.avfc.co.uk/"><img src="Images/Prem-logos/aston-villa-logo.png" alt=""> </a><span>Aston Villa</span></td>     
            <td>6</td>
         <td>1</td>
         <td>1</td>
@@ -245,7 +250,7 @@
         <td>DLLLW</td>
       </tr>
       <tr>
-        <td class="Relegation"><span class="num">18</span><a href="https://www.whufc.com/"> <img src="Prem-logos/west-ham-united-fc-logo-preview.png" alt=""></a> <span>West Ham</span></td>    
+        <td class="Relegation"><span class="num">18</span><a href="https://www.whufc.com/"> <img src="Images/Prem-logos/west-ham-united-fc-logo-preview.png" alt=""></a> <span>West Ham</span></td>    
             <td>6</td>
         <td>1</td>
         <td>1</td>
@@ -257,7 +262,7 @@
         <td>LDWLL</td>
       </tr>
       <tr>
-        <td class="Relegation"><span class="num">19</span> <a href="https://www.nottinghamforest.co.uk/"><img src="Prem-logos/nottingham_forest-logo-brandlogo.net.png" alt=""></a> <span>Nottm Forest</span></td>    
+        <td class="Relegation"><span class="num">19</span> <a href="https://www.nottinghamforest.co.uk/"><img src="Images/Prem-logos/nottingham_forest-logo-brandlogo.net.png" alt=""></a> <span>Nottm Forest</span></td>    
             <td>6</td>
         <td>1</td>
         <td>1</td>
@@ -269,7 +274,7 @@
         <td>LWWWW</td>
       </tr>
       <tr>
-        <td class="Relegation"><span class="num">20</span> <a href="https://www.lcfc.com/"><img src="Prem-logos/leicester-city-vector-logo.png" alt=""></a> <span>Leciester City</span></td>       
+        <td class="Relegation"><span class="num">20</span> <a href="https://www.lcfc.com/"><img src="Images/Prem-logos/leicester-city-vector-logo.png" alt=""></a> <span>Leicester City</span></td>       
          <td>6</td>
         <td>0</td>
         <td>1</td>
@@ -282,7 +287,7 @@
       </tr>
     </table>
     </section>
-  <div class="wrapper"></div>
+  
     <section class="section-2">
         <table>
           <th>Qualifications key</th>
