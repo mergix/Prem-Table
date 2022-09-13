@@ -15,9 +15,6 @@ a{
   
 }
 
-a:active{
-  color: yellow;
-}
 
 /*header*/
 header {
@@ -55,14 +52,14 @@ header {
     padding: 10px 6px;
     
   }
-  /*header nav ul li:hover{
+   nav ul li:hover{
     background-color: #8331a4;
     }
   
-    header nav ul li:active{
+   nav ul li:active{
       background-color: #8331a4;
       }
-    */
+
 
     header ul li.active a,header ul li a:hover {
       text-decoration:none;
@@ -245,6 +242,9 @@ header {
     .titlediv{
       margin-top: 120px;
       margin-left: 250px;
+      color: #f1f1f1;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
     }
     .section-players table{
     background-color: #222;
@@ -270,4 +270,13 @@ header {
         color: #f1f1f1d0;
         border-top: 1px solid grey;
         border-collapse: separate;
+      }
+
+      .section-players span{
+        padding-right: 5px;
+      }
+
+
+      .last{
+        margin-bottom: 40px;
       }
